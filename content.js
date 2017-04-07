@@ -106,7 +106,7 @@ if (document.URL.substring(0, dsturl1.length) == dsturl1 ||
 								src = $(img).attr('src');
 								if (src == "/docs/2007/img/common/icon_apm_bl.gif" ||
                     src == "/docs/2007/img/common/icon_apm_rd.gif") {
-									redirectPage($(coachSpecials[j]).attr('href'));
+									redirectPage($(firstSpecials[j]).attr('href'));
 									succeed = true;
 									break;
 								}
